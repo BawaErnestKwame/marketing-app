@@ -80,7 +80,6 @@ nav ul li a{
     display: flex;
     align-items: center;
     padding: 0 6rem;
-
 }
 
 .header .text h1{
@@ -1005,13 +1004,17 @@ nav ul li a{
     .header{
         background-color: grey;
         width: 100%;
-        height: 60vh;
-        margin-top: .7rem;
+        height: 70vh;
+        margin-top: 4.2rem;
         padding: 0 2rem;
     }
 
+    .header .text {
+        margin-top: 60px;
+    }
+
     .header .text h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         width: 100%;
     }
 
@@ -1029,14 +1032,14 @@ nav ul li a{
     
     .perfect-solution .card{   
         height:100% ;
-        width: 100%;
+        width: 30%;
     }
 
 
     .about-us{
         width: 100%;
       padding: 3rem 2rem;
-      margin-top: 4rem;
+      margin-top: 2rem;
     }
 
     .about-us::before{
@@ -1103,7 +1106,13 @@ nav ul li a{
     }
     
     .text-image img{
-        width: 100%;
+        display: flex;
+        place-content: center;
+        align-items: center;
+    
+        width: 70%;
+        
+        
     }
 
 
@@ -1164,6 +1173,22 @@ nav ul li a{
     
     .clirnts .clients1{
         width: 100%;
+    }
+
+    .footer{
+        display: flex;
+        padding: 2rem 2rem;
+        margin-top: 1rem;
+        width: 100%;
+       
+        gap: 2rem;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+
+    .copy_right{
+        height: auto;
     }
 
 
