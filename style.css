@@ -996,7 +996,7 @@ nav ul li a{
 }
 
 
-@media screen and (max-width:999px) {
+@media screen and (min-width:768px) {
     nav{
         padding: 0.7rem 2rem;
     }
@@ -1005,7 +1005,7 @@ nav ul li a{
         background-color: grey;
         width: 100%;
         height: 70vh;
-        margin-top: 4.2rem;
+        margin-top: 4rem;
         padding: 0 2rem;
     }
 
@@ -1191,18 +1191,34 @@ nav ul li a{
         height: auto;
     }
 
+}
 
-
+@media screen and (min-width:1024){
+    .header{
+        background-color: grey;
+        width: 100%;
+        height: 70vh;
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        padding: 0 6rem;
+    }
     
+    .header .text h1{
+        font-size: 3.5rem;
+        color: whitesmoke;
+        width: 50%;
     
-   
+    }
     
-   
-    
-    
-
-
-
+    .text .see_our_service{
+        background-color: yellow;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
 
     
 }
